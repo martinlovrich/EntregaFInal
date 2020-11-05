@@ -1,0 +1,97 @@
+/* line 1, ../../../../../OneDrive/Escritorio/Coder Desarrolo Web/Entrega Proyecto 4/sass/styles.scss */
+body {
+  background-image:  url("../imagenes/claro.jpg");
+  font-style: italic;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+background-color: #fef8f0;
+}
+/* line 10, ../../../../../OneDrive/Escritorio/Coder Desarrolo Web/Entrega Proyecto 4/sass/styles.scss */
+h1 {
+  text-align: center;
+}
+
+/* line 17, ../../../../../OneDrive/Escritorio/Coder Desarrolo Web/Entrega Proyecto 4/sass/styles.scss */
+#galeria1 img:hover {
+  transform: scale(1.05);
+}
+
+/* line 20, ../../../../../OneDrive/Escritorio/Coder Desarrolo Web/Entrega Proyecto 4/sass/styles.scss */
+#galeria2 img:hover {
+  transform: scale(1.05);
+}
+
+/* line 23, ../../../../../OneDrive/Escritorio/Coder Desarrolo Web/Entrega Proyecto 4/sass/styles.scss */
+#galeria1 .col-lg-3 {
+  box-shadow: 5px 5px 5px 5px #e2c093;
+  padding: 20px;
+  margin: 0 !important;
+  width: auto;
+  height: 300px;
+}
+
+/* line 31, ../../../../../OneDrive/Escritorio/Coder Desarrolo Web/Entrega Proyecto 4/sass/styles.scss */
+#galeria1 img {
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  cursor: pointer;
+  backface-visibility: hidden;
+  opacity: 1;
+}
+
+
+
+
+/* line 39, ../../../../../OneDrive/Escritorio/Coder Desarrolo Web/Entrega Proyecto 4/sass/styles.scss */
+#galeria2 .col-lg-3 {
+  margin: 0 !important;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 5px #e2c093;
+  width: auto;
+  height: 300px;
+}
+
+/* line 48, ../../../../../OneDrive/Escritorio/Coder Desarrolo Web/Entrega Proyecto 4/sass/styles.scss */
+#galeria2 img {
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  cursor: pointer;
+  backface-visibility: hidden;
+  opacity: 1;
+
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+#prueba1:hover{
+  opacity: 0.3;
+}
+
+#prueba2:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/* line 55, ../../../../../OneDrive/Escritorio/Coder Desarrolo Web/Entrega Proyecto 4/sass/styles.scss */
+
+
+/*# sourceMappingURL=styles.css.map */
